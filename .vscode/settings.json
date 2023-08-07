@@ -1,0 +1,9 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.project.sourcePaths": [
+    ""
+  ],
+  "files.exclude": {
+    "**/.git": false
+  }
+}
