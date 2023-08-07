@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "http://localhost:3000")
+// @CrossOrigin(origins = "http://localhost:3000") link website front end
+@CrossOrigin(origins = "https://new-portfolio-rose-seven.vercel.app/")
+
 @RestController
 @RequestMapping(path = "api/v1/comment")
 public class CommentController {
